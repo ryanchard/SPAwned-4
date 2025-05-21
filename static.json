@@ -60,14 +60,20 @@
           "index": "e263b547-bdff-4d7a-83f0-f50a05f97771",
           "facets": [
             {
-              "name": "directory",
-              "field_name": "Directory",
+              "name": "Directory",
+              "field_name": "file.directory",
               "type": "terms",
               "size": 10
             },
             {
-              "name": "extension",
-              "field_name": "Extension",
+              "name": "Extension",
+              "field_name": "file.extension",
+              "type": "terms",
+              "size": 10
+            },
+            {
+              "name": "Language",
+              "field_name": "language",
               "type": "terms",
               "size": 10
             }
