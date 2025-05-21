@@ -60,14 +60,14 @@
           "index": "e263b547-bdff-4d7a-83f0-f50a05f97771",
           "facets": [
             {
-              "name": "Directory",
-              "field_name": "directory",
+              "name": "directory",
+              "field_name": "Directory",
               "type": "terms",
               "size": 10
             },
             {
-              "name": "Extension",
-              "field_name": "extension",
+              "name": "extension",
+              "field_name": "Extension",
               "type": "terms",
               "size": 10
             }
